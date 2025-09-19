@@ -10,16 +10,22 @@ Backend API для системы расчета заработной платы
 - Swagger/OpenAPI
 - CORS
 
+
+
 ## 📦 Установка и запуск
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/ваш-логин/TechSupportPayrollApi.git
+git clone https://github.com/TasFoma/TechSupportPayrollApi.git
 cd TechSupportPayrollApi
+
+
 Восстановите зависимости:
 
 bash
 dotnet restore
+
+
 Запустите приложение:
 
 bash
