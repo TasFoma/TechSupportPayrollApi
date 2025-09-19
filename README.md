@@ -26,17 +26,17 @@ bash
 dotnet run
 Откройте в браузере: https://localhost:5259/swagger
 
----
 
-📊 API Endpoints
+
+## 📊 API Endpoints
 - GET /api/Employee - список сотрудников
 - GET /api/CoefficientSettings - настройки коэффициентов
 - GET /api/Salary - история расчетов зарплаты
 - POST /api/Salary/calculate - расчет зарплаты за период
 
----
 
-🎯 Пример запроса
+
+## 🎯 Пример запроса
 bash
 POST /api/Salary/calculate
 Content-Type: application/json
@@ -46,7 +46,7 @@ Content-Type: application/json
   "period": "2025-09-01"
 }
 
----
 
-🗄️ База данных
+
+## 🗄️ База данных
 Автоматически создается SQLite база techsupport.db с тестовыми данными.
