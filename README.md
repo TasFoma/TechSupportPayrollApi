@@ -49,3 +49,8 @@ Content-Type: application/json
 ## 🗄️ База данных
 
 Автоматически создается SQLite база techsupport.db с тестовыми данными.
+
+---
+
+## 🗄️ Frontend
+https://github.com/TasFoma/techsupport-frontend
